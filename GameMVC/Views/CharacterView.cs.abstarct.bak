@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace GameMvc.Views
+{
+    public abstract class CharacterView : ICharacterView
+    {
+        Dictionary<string, ISceneView> Scenes;
+        ISceneView SceneCurrent;
+
+        protected CharacterView()
+        {
+            Scenes = new Dictionary<string, ISceneView>();
+        }
+
+        public abstract string Name { get; set; }
+        public abstract int Speed { get; set; }
+        public abstract int Health { get; set; }
+        public abstract int Ammo { get; set; }
+
+        public abstract event EventHandler<NewCharacterCreatedEventArgs> NewCharacterCreated;
+        public abstract event Action<int> GetDamaged;
+        public abstract event Action GoingToMenu;
+
+        public void AddScene(string sceneName, ISceneView sceneView)
+        {
+            Scenes.Add(sceneName, sceneView);
+        }
+
+        public abstract void GoToScene(string sceneName);
+    }
+}

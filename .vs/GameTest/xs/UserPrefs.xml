@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{D5F989FD-CEEC-4E76-BFE9-F0DABDE7044E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GameMVC/Views/ICharacterView.cs">
+    <Files>
+      <File FileName="GameMVC/Models/Character.cs" Line="8" Column="1" />
+      <File FileName="GameMVC/Controllers/CharacterController.cs" Line="48" Column="1" />
+      <File FileName="GameMVC/Views/CharacterView.cs" Line="68" Column="10" />
+      <File FileName="GameMvcConsole/Program.cs" Line="16" Column="44" />
+      <File FileName="GameMvcConsole/Views/MenuSceneView.cs" Line="7" Column="6" />
+      <File FileName="GameMvcConsole/Views/GameSceneView.cs" Line="41" Column="29" />
+      <File FileName="GameMVC/Views/ICharacterView.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.GameMvcConsole PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
